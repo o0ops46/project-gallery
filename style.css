@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 5px solid wheat;
+  border-radius: 2rem;
+  margin: 2rem;
+  background-color: burlywood;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.project {
+  width: 150px;
+
+  background-color: antiquewhite;
+  height: 200px;
+}
+.project-title {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+.description {
+  font-size: 14px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.project-img {
+  width: 50px;
+  height: 50px;
+}
