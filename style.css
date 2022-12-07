@@ -5,37 +5,51 @@
 }
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border: 5px solid wheat;
   border-radius: 2rem;
   margin: 2rem;
-  background-color: burlywood;
   color: white;
   text-align: center;
   padding: 50px;
 }
 .main {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  /* shorthand for flex-direction and flex-wrap */
+  flex-flow: row wrap;
+  gap: 100px;
+  /* align-content: center; */
+  justify-content: space-evenly;
 }
 .project {
-  width: 150px;
-
-  background-color: antiquewhite;
-  height: 200px;
+  text-align: center;
+  flex-grow: 1;
+  padding: 30px;
+  max-width: 200px;
+  flex-shrink: 1;
+  height: auto;
 }
 .project-title {
   color: white;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 16px;
+  font-size: 22px;
 }
 .description {
   font-size: 14px;
+  display: none;
   color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .project-img {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
+  padding: 10px 0px;
+}
+.details-button {
+  color: white;
+  padding: 5px 15px;
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 20px;
 }
