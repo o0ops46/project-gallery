@@ -3,13 +3,23 @@
   padding: 0;
   background-color: grey;
 }
+header {
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+header p {
+  font-style: italic;
+}
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 2rem;
   margin: 2rem;
   color: white;
   text-align: center;
-  padding: 50px;
+}
+a {
+  text-decoration: none;
 }
 .main {
   display: flex;
@@ -36,11 +46,12 @@ h1 {
 }
 .description {
   font-size: 14px;
-  display: none;
+  padding: 10px;
   color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .project-img {
   width: 150px;
   height: 150px;
